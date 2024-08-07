@@ -19,8 +19,6 @@ public class Bfs {
             adj.get(start).add(end);
 
         }
-
-
     }
     static Queue<Integer> queue= new LinkedList<>();
     public static void bfs(int node ){
@@ -28,7 +26,6 @@ public class Bfs {
         vis[node]=true;
         while(!queue.isEmpty()){
             int u=queue.poll();
-
                 for(int i=0;i<adj.get(u).size();i++){
                     int v=adj.get(u).get(i);
                     if(vis[v]==false) {
@@ -36,11 +33,7 @@ public class Bfs {
                         vis[v] = true;
                     }
                 }
-
-
         }
-
-
     }
     public static void main(String[] args) {
         int A=6;
@@ -64,9 +57,5 @@ public class Bfs {
         else{
             System.out.println(" Not visited ");
         }
-
-
-
-
     }
 }

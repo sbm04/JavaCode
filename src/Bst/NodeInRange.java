@@ -11,6 +11,7 @@ public class NodeInRange {
 
         if (data >= B && data <= C) {
             count = 1; // Node value is within range
+
         }
 
         count += solveHelper(A.left, B, C);

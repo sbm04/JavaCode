@@ -1,5 +1,4 @@
 package graph;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -15,10 +14,7 @@ public class Dfs {
             int start=list.get(i).get(0);
             int end=list.get(i).get(1);
             adj.get(start).add(end);
-
         }
-
-
     }
     public static void dfs(int u,ArrayList<ArrayList<Integer>> adj){
         vis[u]=true;
@@ -27,10 +23,7 @@ public class Dfs {
             if(vis[v]==false){
                 dfs(v,adj );
             }
-
         }
-
-
     }
     public static void main(String[] args) {
         int A=6;
@@ -47,7 +40,6 @@ public class Dfs {
         );
         creatAdj(list,A);
         vis= new boolean[A+1];
-
         dfs(1,adj);
         if(vis[4]==true){
             System.out.println(" visited ");
@@ -55,9 +47,7 @@ public class Dfs {
         else{
             System.out.println(" Not visited ");
         }
-
-
-
-
     }
 }
+
+
