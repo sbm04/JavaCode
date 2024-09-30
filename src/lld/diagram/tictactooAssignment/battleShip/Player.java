@@ -1,6 +1,6 @@
 package lld.diagram.tictactooAssignment.battleShip;
 
-public class Player {
+public class Player implements GameObserver{
     private Fleet fleet;
     private Grid shipGrid;
     private Grid trackingGrid;
@@ -29,6 +29,13 @@ public class Player {
 
     public Grid getShipGrid() {
         return shipGrid;
+    }
+
+    @Override
+    public void update(GameState state) {
+        if (state.isGameOver()) {
+            System.out.println("Game Over");
+        }
     }
 }
 
