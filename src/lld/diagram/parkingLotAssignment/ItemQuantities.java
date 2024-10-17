@@ -1,6 +1,6 @@
 package lld.diagram.parkingLotAssignment;
 
-public enum ItemQuanties {
+public enum ItemQuantities {
     GRAM,
     MILITRES;
 

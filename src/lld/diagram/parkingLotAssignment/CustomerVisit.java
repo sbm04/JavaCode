@@ -17,12 +17,7 @@ public class CustomerVisit extends User {
     }
 
     public void generateInvoice() {
-//        double totalAmount = orders.stream()
-//                .flatMap(order -> order.orderedDishes.stream())
-//                .mapToDouble(dish -> dish.price)
-//                .sum();
-//
-//        this.invoice = new Bill(this, totalAmount);
-    }
 
     }
+
+}

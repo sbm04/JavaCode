@@ -6,4 +6,9 @@ public class vegDish extends Dish{
     public void preparingMethod() {
 
     }
+
+    @Override
+    public double getPrice() {
+        return 0;
+    }
 }

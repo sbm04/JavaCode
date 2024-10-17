@@ -5,6 +5,8 @@ public abstract class  Dish  implements Dishable {
     public String description;
     public double price;
     public RecipeInstruction recipeInstruction;
+    public List<Ingredient> ingredients;
+
 
 
 

@@ -5,4 +5,9 @@ public class non_veg extends Dish{
     public void preparingMethod() {
 
     }
+
+    @Override
+    public double getPrice() {
+        return 0;
+    }
 }

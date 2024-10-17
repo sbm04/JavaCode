@@ -4,7 +4,7 @@ public class Item {
     public String name;
     public double price;
     public double weight;
-    public ItemQuanties itemQuanties;
+    public ItemQuantities itemQuanties;
     public ItemType itemType;
 
 }

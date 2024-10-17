@@ -3,7 +3,7 @@ package lld.diagram.parkingLotAssignment;
 import java.util.*;
 
 public class RecipeInstruction {
-    public Ingredient ingredient;
-    List<Item> itemList;
+    public String steps;
+    public List<Ingredient> ingredients;
 
 }
